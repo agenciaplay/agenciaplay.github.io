@@ -1,0 +1,100 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 100px;
+  background-color: white;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.moto {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-transform: normal;
+    letter-spacing: -0.5px;
+    font-size: 26px;
+    color: #EF4733;
+}
+
+.address {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+    font-size: 18px;
+    color: #059FB3;
+    text-align: left;
+}
+
+.phone {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+    font-size: 18px;
+    color: #F7941E;
+}
+
+.email {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+    font-size: 18px;
+    color: #F7941E;
+}
+
+.space {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+    font-size: 18px;
+    color: #522F91;
+}
+
+.reg {
+    font-family: 'Roboto', sans-serif;
+    color: grey;
+}
+
+p {
+    display: inline
+}
+
+a:link, a:visited {
+    color: grey;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    color: #522F91;
+}
